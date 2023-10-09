@@ -1,0 +1,52 @@
+body {
+    font-size: 15px;
+    background-color: rgb(255, 192, 228);
+}
+.Logo {
+    background-color:rgb(219, 144, 193);
+    display: flexbox;
+    border-radius: 10px;
+}
+.SecondNavigation{
+    /* top: 50px;
+    bottom : 100px;
+    width: 100px;
+    margin: 5px;
+    height: 100px; */
+    box-sizing: border-box;
+    background-color: rgb(154, 118, 142);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border-radius: 10px;
+}
+.SubNav{
+    /* top: 50px;
+    bottom : 0px;
+    width: 100px;
+    margin: 5px;
+    height: 100px; */
+    position: relative;
+    background-color:rgb(235, 220, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border-radius: 10px;
+}
+.container2 {
+    position: relative;
+    left: 0px;
+    bottom: 2px;
+}
+.isi {
+    box-sizing: border-box;
+    background-color: black;
+}
+footer{
+    margin:  0 ;
+    border: 10px;
+    box-sizing: border-box;
+    background-color: rgb(181, 136, 168);
+    border-radius: 0.5rem;
+    width: 400px;
+}
